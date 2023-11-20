@@ -1,9 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500&display=swap');
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family:'Lucida Sans', sans-serif;
 }
 body{
-  background-color: #eaebed;
+  background-color: #c3a9a9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color:#5C3127;
+  flex-direction: column;
+  margin-top: -30px;
+}
+#toprow{
+  color:#5C3127;
+  font-size: 15pt;
+  font-family: 'Big Shoulders Display', sans-serif;
+}
+.card{
+  box-shadow: 0px 1px 6px #1f1c1c48;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+.card-body{
+  padding: 1rem;
+}
+h5{
+  letter-spacing: 1.1px;
+  font-family: 'Big Shoulders Display', sans-serif;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.318);
+  font-size: 24pt;
+}
+.logo{
+  font-size: 47pt;
+  color: #8F5650;
+  text-shadow:0px 2px 8px #630e0e49;
+}
+td{
+  color:#8F5650;
+}
+.table-striped tbody tr:nth-child(odd) {
+  background-color: #8f565016;
 }
