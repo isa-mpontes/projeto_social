@@ -1,5 +1,9 @@
-*Color Palette* 
+##Color Palette
+
+
 [original]:
+
+
 #C2B5B2;
 #DB916A;
 #C7543F;
